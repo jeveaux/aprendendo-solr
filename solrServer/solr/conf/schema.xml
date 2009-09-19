@@ -278,6 +278,11 @@
    <field name="id" type="string" indexed="true" stored="true" required="true" /> 
    <field name="sku" type="textTight" indexed="true" stored="true" omitNorms="true"/>
    <field name="name" type="text" indexed="true" stored="true"/>
+   
+   <!-- Fields Tutorial -->
+   <field name="nome" type="text" indexed="true" stored="true"/>
+   <field name="descricao" type="text" indexed="true" stored="true"/>
+   
    <field name="nameSort" type="string" indexed="true" stored="false"/>
    <field name="alphaNameSort" type="alphaOnlySort" indexed="true" stored="false"/>
    <field name="manu" type="text" indexed="true" stored="true" omitNorms="true"/>

@@ -141,9 +141,9 @@ public class IndexerAndSearcher {
 		//indexerAndSearcher.addDocument("1", "Café com Tapioca", "Evento de Java do CEJUG em Fortaleza");
 		//indexerAndSearcher.addBean("2", "EJES", "Encontro de Java do Espírito Santo");
 		
-		indexerAndSearcher.findAllDocuments();
+		//indexerAndSearcher.findAllDocuments();
 		
-		indexerAndSearcher.search("*", "*");
+		indexerAndSearcher.search("id", "[2 TO 5]");
 	}
 	
 }
